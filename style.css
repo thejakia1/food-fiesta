@@ -6,7 +6,26 @@ body{
 }
 .top-banner{
     display: flex;
+    color: white;
+    font-weight: 500;
     margin-bottom: 60px;
+    background-image: url(img/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    padding: 10px 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: blueviolet;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+.title-name{
+    font-size: 40px;
 }
 .center-align{
     padding: 10%;
