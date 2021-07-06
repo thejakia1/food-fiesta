@@ -13,14 +13,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav-bar{
+#nav-bar{
     padding: 10px 40px;
     text-align: center;
     line-height: 40px;
     background-color: blueviolet;
     margin-bottom: 20px;
 }
-.nav-bar a{
+#nav-bar a{
     text-decoration: none;
     color: white;
     padding: 50px;
@@ -36,6 +36,9 @@ body{
 }
 .half-width img{
     width: 80%;
+}
+#top-right{
+    padding-top: 6%;
 }
 .link-button{
     text-decoration: none;
@@ -67,6 +70,7 @@ body{
 }
 .recipe-card{ 
     display: flex;  
+    width: 100%;
 }
 .food-card{
     padding: 10px 30px;
@@ -91,8 +95,7 @@ body{
     padding-bottom: 40px;
 }
 .gallery-box img{
-    height: 200px;
-    width: 300px;
+    display: flex;
     padding: 40px 60px 0px;
 }
 .social-info{
