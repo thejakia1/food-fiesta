@@ -59,15 +59,16 @@ body{
 }
 .recipe-caption{
     text-align: center;
-    margin-bottom: 20px;   
-}
-.recipe-area{
-    display: flex;
+    margin-bottom: 20px;
+    width: 100%;   
 }
 .triple-img{
     width: 100%;
 }
-.food-card{ 
+.recipe-card{ 
+    display: flex;  
+}
+.food-card{
     padding: 10px 30px;
     margin: 0px 30px 100px;
     border-radius: 20px;
