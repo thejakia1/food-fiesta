@@ -7,9 +7,9 @@ body{
 .top-banner{
     display: flex;
     font-weight: 500;
-    color: white;
+    color: black;
     margin-bottom: 60px;
-    background-image: url(img/top-banner.png);
+    background-image: url(img/top-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,6 +49,7 @@ body{
     background-image: url(img/shapes/about-us-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 }
 #chef-photo{
     width: 90%;
