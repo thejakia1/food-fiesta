@@ -87,11 +87,12 @@ body{
     width: 100%;
     margin: 0px 30px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .gallery-box img{
     height: 200px;
     width: 300px;
-    padding: 60px;
+    padding: 40px 60px 0px;
 }
 .social-info{
     text-align: center;
